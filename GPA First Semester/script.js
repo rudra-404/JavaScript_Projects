@@ -16,7 +16,7 @@ function calculateGPA() {
 
     for (let i = 0; i < courses.length; i++) {
         if (courses[i].number === "") {
-            alert("Please fill in all course numbers!");
+            alert("Please Fill In All Course Numbers !");
             return;
         }
 
